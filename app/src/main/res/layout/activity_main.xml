@@ -12,22 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/header"
+        android:textStyle="bold"
         android:layout_marginTop="10dp"
         android:gravity="center"
         android:ems="10"
-        android:textColor="#3366ff"
+        android:textColor="#00004d"
         android:textSize="40dp"/>
     <ImageView
-        android:layout_width="130dp"
-        android:layout_marginTop="30dp"
+        android:layout_width="170dp"
+        android:layout_marginTop="40dp"
         android:layout_height="120dp"
         android:layout_gravity="center"
-        android:src="@drawable/ac_logo"/>
+        android:src="@drawable/ic_baseline_account_circle_24"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:drawableStart="@drawable/ic_login_person"
         android:hint="Username"
