@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:ems="10"
+        android:textColor="#3366ff"
+        android:textSize="40dp"/>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ac_logo"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_login_person"
+        android:hint="Username"
+        android:textSize="24sp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_password_login"
+        android:ems="10"
+        android:hint="Password"
+        android:textSize="24sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/Sign_In_button"
+        android:background="@drawable/round_button"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/Sign_Up_button"
+        android:background="@drawable/round_button"
+        android:textSize="24sp"/>
+
+</LinearLayout>

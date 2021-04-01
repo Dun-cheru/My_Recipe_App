@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="header">MY RECIPE</string>
+    <string name="Sign_In_button">SIGN IN</string>
+    <string name="Sign_Up_button">SIGN UP</string>
+    <string name="Register_button">REGISTER</string>
+</resources>
