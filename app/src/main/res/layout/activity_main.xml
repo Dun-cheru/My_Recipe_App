@@ -20,7 +20,7 @@
         android:textSize="40dp"/>
     <ImageView
         android:layout_width="170dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:layout_height="120dp"
         android:layout_gravity="center"
         android:src="@drawable/ic_baseline_account_circle_24"/>
@@ -28,38 +28,38 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:drawableStart="@drawable/ic_login_person"
         android:hint="Username"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:inputType="textPersonName"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:drawableStart="@drawable/ic_password_login"
         android:ems="10"
         android:hint="Password"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:inputType="textPassword"/>
 
     <Button
         android:id="@+id/sign_in"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="@string/Sign_In_button"
         android:background="@drawable/round_button"
-        android:textSize="24sp"/>
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/sign_up"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:text="@string/Sign_Up_button"
         android:background="@drawable/round_button"
-        android:textSize="24sp"/>
+        android:textSize="20sp"/>
 
 </LinearLayout>

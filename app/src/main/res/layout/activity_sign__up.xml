@@ -11,10 +11,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="full name"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:drawableStart="@drawable/ic_login_person"
         android:inputType="textPersonName"/>
 
@@ -22,9 +22,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:hint="dun@gmail.com"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:drawableStart="@drawable/ic_sign_up_email"
         android:inputType="textEmailAddress"/>
 
@@ -32,28 +32,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:hint="password"
         android:drawableStart="@drawable/ic_password_login"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:inputType="textPassword"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:hint="confirm password"
         android:drawableStart="@drawable/ic_password_login"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:inputType="textPassword"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:layout_marginTop="20dp"
-        android:textSize="24sp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
         android:drawableStart="@drawable/ic_sign_up_phone"
         android:hint="+254 XXX XXX XXX"
         android:inputType="phone"/>
@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Register_button"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:background="@drawable/round_button"/>
 
 
