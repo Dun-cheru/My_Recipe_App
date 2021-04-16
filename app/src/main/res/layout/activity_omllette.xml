@@ -15,7 +15,7 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:paddingLeft="5dp"
-        android:text="Omllette"
+        android:text="Omelette"
         android:textStyle="bold"
         android:textColor="#00004d"
         android:textSize="25sp" />

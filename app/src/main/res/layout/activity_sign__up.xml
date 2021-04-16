@@ -9,6 +9,7 @@
     tools:context=".Sign_Up">
 
     <EditText
+        android:id="@+id/fullName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -19,6 +20,7 @@
         android:inputType="textPersonName"/>
 
     <EditText
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,6 +31,7 @@
         android:inputType="textEmailAddress"/>
 
     <EditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -39,6 +42,7 @@
         android:inputType="textPassword"/>
 
     <EditText
+        android:id="@+id/confirmPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -49,6 +53,7 @@
         android:inputType="textPassword"/>
 
     <EditText
+        android:id="@+id/phoneNo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
